@@ -1,4 +1,4 @@
-# Task management system
+# Task management system Frontend
 
 - **Task Management Interface:** Provides a user-friendly interface for creating, updating, and deleting tasks.
 - **Status-Based Filtering:** Allows users to filter tasks based on their status for more efficient task management.
@@ -23,7 +23,7 @@
 - [Node.js](https://nodejs.org/) (version >=22.0.0 or higher)
 - [npm](https://www.npmjs.com/) (version >=10.7.0 or higher) or [yarn](https://classic.yarnpkg.com/) (version >=1.22.0 or higher)
 
-### Steps for Backend
+### Steps
 
 1. **Clone the repository:**
 
@@ -57,36 +57,6 @@ yarn run build
 
 ```bash
 yarn run cy:open-e2e
-```
-
-### Steps for Frontend
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/username/task-management-app.git
-```
-
-2. **Install Dependency:**
-
-- Install required packages for run application.
-
-```bash
-npm install
-```
-
-3. **Run Application Locally:**
-
-```bash
-npm run start:dev
-```
-
-4. **Build Application:**
-
-- To make application build using below command.
-
-```bash
-npm run build
 ```
 
 ## Installation (Option 2 - Docker Image)

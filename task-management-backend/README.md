@@ -1,18 +1,14 @@
-# Task management system
+# Task management system Backend
 
-- **Task Management Interface:** Provides a user-friendly interface for creating, updating, and deleting tasks.
-- **Status-Based Filtering:** Allows users to filter tasks based on their status for more efficient task management.
+- **API for task managment:** Provide api for task management system application.
 
 ## Features
 
-- **User Interface:** Built with React to create a UI for the task management system.
-  - **Create Tasks:** Add new tasks with a title, description, and status.
-  - **Update Tasks:** Update tasks with a title, description and status.
-  - **Delete Tasks:** Delete tasks.
-  - **Show Tasks:** Display task details.
-- **Routing:** Client-side routing with React Router.
-- **State Management:** Redux, Redux Toolkit, and React-Redux libraries are used to manage application state.
-- **Testing:** Write end-to-end test cases using Cypress.
+### List of API's
+
+- **Create Tasks:** Add new tasks with a title, description, and status.
+- **Update Tasks:** Update tasks with a title, description and status.
+- **Delete Tasks:** Delete tasks.
 
 ## Installation (Option 1 - Local Setup)
 
@@ -21,45 +17,9 @@
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (version >=22.0.0 or higher)
-- [npm](https://www.npmjs.com/) (version >=10.7.0 or higher) or [yarn](https://classic.yarnpkg.com/) (version >=1.22.0 or higher)
+- [npm](https://www.npmjs.com/) (version >=10.7.0 or higher)
 
-### Steps for Backend
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/username/task-management-app.git
-```
-
-2. **Install Dependency:**
-
-- Install required packages for run application.
-
-```bash
-yarn install
-```
-
-3. **Run Application Locally:**
-
-```bash
-yarn run dev
-```
-
-4. **Build Application:**
-
-- To make application build using below command.
-
-```bash
-yarn run build
-```
-
-5. **Run E2E Using Cypress:**
-
-```bash
-yarn run cy:open-e2e
-```
-
-### Steps for Frontend
+### Steps
 
 1. **Clone the repository:**
 
@@ -78,7 +38,7 @@ npm install
 3. **Run Application Locally:**
 
 ```bash
-npm run start:dev
+yarn run start:dev
 ```
 
 4. **Build Application:**
