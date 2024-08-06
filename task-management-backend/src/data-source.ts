@@ -1,3 +1,9 @@
+/**
+ * @description
+ *  Create appicaltion database datasource instance.
+ *  Data source instance will used throughout application for query database.
+ */
+
 import * as dotenv from "dotenv";
 import "reflect-metadata";
 import { DataSource } from "typeorm";
@@ -19,6 +25,6 @@ export const AppDataSource = new DataSource({
   synchronize: false, // Disabled model sync with database through entity directly.
   logging: NODE_ENV === "dev" ? true : false, // query logger is disabled for server(stage, prod).
   entities: [Task], // Register entity for datasource.
-  migrations: [__dirname + '/../../src/migration/*.ts'], // target migration stript folder.
+  migrations: [__dirname + "/../../src/migration/*.ts"], // target migration stript folder.
   subscribers: [],
 });
